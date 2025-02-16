@@ -7,3 +7,6 @@ for syscall error  :
 
 # NOTES 
 Angular is an application-design framework and development platform for creating efficient and sophisticated single-page apps.
+
+## fixe
+run this `npm config set registry http://registry.npmjs.org/` to make npm install faster 
