@@ -5,8 +5,8 @@ for syscall error  :
 4 rename some shit in the node module : .acorn-dynamic-import-6VTlYv6U'
 
 
-# NOTES 
+## NOTES 
 Angular is an application-design framework and development platform for creating efficient and sophisticated single-page apps.
 
-## fixe
+## fixes
 run this `npm config set registry http://registry.npmjs.org/` to make npm install faster 
