@@ -15,7 +15,7 @@ try to install node lts
 try to `npm install --nodedir=/node/src/`
 try `npm i -g node-gyp@latest`
 try `npm i <module> --legacy-peer-deps` 
-give up and cry !
+give up and cry ! :)
 
 come back and try to change the npm registry 
 . npm config set registry http://registry.npmjs.org/ --- using this now and showing possitive result 
