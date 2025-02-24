@@ -29,6 +29,10 @@ use nvm and install the version that would work for your project
 
 xss payload : <img src/onerror=prompt(document.cookie)>
 
+## things to add 
+1 login / signin modal for Authentication 
+
+
 
 
 

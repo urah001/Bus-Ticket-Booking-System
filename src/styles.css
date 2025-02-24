@@ -5,10 +5,10 @@ body {
 
 .header-top {
     background: #fff;
-    border-top: 3px solid coral;
+    border-top: 3px solid #591f00;
 }
 .login {
-    background: coral;
+    background: #591f00;
     color: #fff;
     float: right;
     padding: 3px 20px;
@@ -29,7 +29,7 @@ li {
 }
 .menu {
    
-    background: coral
+    background: #591f00;
 }
 .menu ul li {
     padding: 10px 20px;
@@ -47,7 +47,7 @@ table {
 
 
 .footer {
-    border-top: 3px solid coral;
+    border-top: 3px solid #591f00;
 }
 
 
