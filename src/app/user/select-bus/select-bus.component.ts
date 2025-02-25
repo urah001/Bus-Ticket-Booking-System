@@ -63,11 +63,11 @@ place:Place[]=[];
     console.log(leavingfrom)
     if(leavingfrom=='school'){
       this.place= [
-        {key:'1109001', value:'Comilla'} ,
-        {key:'1109002', value:'Chittagong'} ,
-        {key:'1109004', value:'KuaKata'} ,
-        {key:'1109005', value:'Coxs Bazar'},
-        {key:'1109006', value:'Rajshahi'} 
+        {key:'1109001', value:'lokoja'} ,
+        {key:'1109002', value:'okene'} ,
+        {key:'1109004', value:'kaba'} ,
+        // {key:'1109005', value:'Coxs Bazar'},
+        // {key:'1109006', value:'Rajshahi'} 
  
       ]
   }
