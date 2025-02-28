@@ -30,18 +30,19 @@
             <tr>
                 <th>Bus Name</th>
                 <th>Dept. Time</th>
-                <th>Coach Type</th>
+                <!-- <th>Coach Type</th> -->
                 <th>Seats Available</th>
                 <th>Fare</th>
                 <th></th>
             </tr>
           </thead>
           <tbody>
-            <tr *ngFor="let b of buses">
+            <!-- /** reduce d number of buses to be 2  **/ -->
+            <tr *ngFor="let b of buses.slice(0,2)">
               <td> <h6>{{b.name}}</h6></td>
              
               <td>{{b.time}}</td>
-              <td>{{b.coach_type}}</td>
+              <!-- <td>{{b.coach_type}}</td> -->
               <td>{{b.seat}}</td>
               <td>{{b.fare}}</td>
               <ng-template #template>
