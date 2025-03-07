@@ -75,3 +75,5 @@ using the school as a targetted audience i want to use the school color to make 
 
 software requirement 
 hardware requirement 
+
+slider
