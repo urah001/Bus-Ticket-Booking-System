@@ -1,38 +1,36 @@
 <div class="header-top">
-    <div class="container">
-        <div class="row">
-          <div class="col-md-6 logo">
-            <img src="../assets/img/custechLogo.png" alt="">
-          </div>
-          <div class="col-md-6">
-            <p>
-              <button class="login cursor-pointer" (click)="login()"> Login</button>
-              <button class="login" (click)="signup()"> Sign Up</button>
-            </p>
-            <!-- <p>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 logo">
+        <img src="../assets/img/custechLogo.png" alt="" />
+      </div>
+      <div class="col-md-6">
+        <p>
+          <button class="login cursor-pointer" (click)="login()">Login</button>
+          <button class="login" (click)="signup()">Sign Up</button>
+        </p>
+
+        <a routerLink="/dashboard">Dashboard</a>
+
+        <!-- <p>
              <img src="../assets/img/246x0w.jpg" >
              ,01712345678
               01712345678,
               
             </p> -->
-          </div>
-        </div>
       </div>
-      
+    </div>
+  </div>
 </div>
 
 <div class="menu">
-
   <div class="container">
     <div class="row justify-content-center">
-     <div class="col-md-7">
-      <ul>
-        <li [routerLink]=''>Home</li>
-  
-      </ul>
-     </div>
-
+      <div class="col-md-7">
+        <ul>
+          <li [routerLink]="">Home</li>
+        </ul>
+      </div>
     </div>
   </div>
-
 </div>
