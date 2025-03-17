@@ -73,7 +73,12 @@ using the school as a targetted audience i want to use the school color to make 
 
 # requirement
 
+
 software requirement 
 hardware requirement 
 
 slider
+
+
+# never do 
+never install anything without using the --legacy-peer-deps flag 
