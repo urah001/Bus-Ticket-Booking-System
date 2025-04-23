@@ -17,6 +17,12 @@ try `npm i -g node-gyp@latest`
 try `npm i <module> --legacy-peer-deps` 
 give up and cry ! :)
 
+
+remeber to alway 
+: ng version then 
+nvm use node 20
+
+
 come back and try to change the npm registry 
 . npm config set registry http://registry.npmjs.org/ --- using this now and showing possitive result 
 . npm config set registry http://registry.npmjs.cf/ -- tried this and it didnt go well 
