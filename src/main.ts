@@ -11,13 +11,6 @@ if (environment.production) {
 
 platformBrowserDynamic()
   .bootstrapModule(AppModule, {
-    providers: [
-      provideKinde({
-        clientId: "119b841e7870437c9ab2c18736855baa",
-        authDomain: "https://urservices.kinde.com",
-        redirectURL: "http://localhost:4200/", //where user gets dumped after succefully login
-        logoutRedirectURL: "http://localhost:4200/", //this is where the user is sent after logging out.It often points to a landing page, login page, or home page.
-      }),
-    ],
+    providers: [],
   })
   .catch((err) => console.log(err));
