@@ -1,0 +1,15 @@
+[
+    {
+      "name": "Bus One",
+      "fare": 500,
+      "seat": 18,
+      "time": "10:00 AM"
+    },
+    {
+      "name": "Bus Two",
+      "fare": 400,
+      "seat": 16,
+      "time": "11:30 AM"
+    }
+  ]
+  

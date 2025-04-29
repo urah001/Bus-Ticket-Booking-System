@@ -17,7 +17,10 @@ export class SelectBusService {
     ) { }
 
     getBus(routeId) {
-       return this.http.get(this.Root_url + 'buses/'+routeId+'.json');
+       //return this.http.get(this.Root_url + 'buses/'+routeId+'.json');
+       //getting the bus from here : name , price, seat available 
+        return this.http.get<Bus[]>('assets/buses.json');
+      
     }
 
     getRoueId(routeId){
