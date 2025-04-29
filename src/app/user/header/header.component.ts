@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { inject } from '@angular/core/testing';
+//import { KindeAngularService } from 'kinde-angular';
 
 @Component({
   selector: 'header',
@@ -7,7 +9,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 login(){
-
 }
 signup(){
 
