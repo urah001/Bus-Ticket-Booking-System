@@ -16,12 +16,18 @@ import { UserFormComponent } from './user/user-form/user-form.component';
 import { BookingService } from './user/services/booking.service';
 import { UserService } from './user/services/user.service';
 import { PrintComponent } from './user/print/print.component';
+import { LoginComponent } from './user/login/login.component';
+import { AuthService } from './user/services/auth.service';
+import { RegisterComponent } from './user/register/register.component';
+
 
 const userRoute:Routes=[
 {path:'',component:SelectBusComponent},
 {path:'search',component:BusSearchResultComponent},
 {path:'user-form',component:UserFormComponent},
 {path:'print',component:PrintComponent},
+{path:'login',component:LoginComponent},
+{path:'register',component:RegisterComponent},
 
 ]
 
@@ -35,7 +41,9 @@ const userRoute:Routes=[
     SelectSeatComponent,
     BusSearchResultComponent,
     UserFormComponent,
-    PrintComponent
+    PrintComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
@@ -47,7 +55,8 @@ const userRoute:Routes=[
   providers: [
     SelectBusService,
     BookingService,
-    UserService
+    UserService,
+    AuthService
   ],
   bootstrap: [AppComponent]
 })
