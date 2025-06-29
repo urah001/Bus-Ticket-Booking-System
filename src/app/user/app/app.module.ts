@@ -16,9 +16,10 @@ import { UserFormComponent } from '../user-form/user-form.component';
 import { BookingService } from '../services/booking.service';
 import { UserService } from '../services/user.service';
 import { PrintComponent } from '../print/print.component';
-import { LoginComponent } from '../../login.component';
+//import { LoginComponent } from '../../login.component';
 import { AuthService } from '../services/auth.service';
 import { RegisterComponent } from '../register/register.component';
+import { LoginComponent } from '../login/login.component';
 
 
 const userRoute:Routes=[
@@ -42,7 +43,6 @@ const userRoute:Routes=[
     BusSearchResultComponent,
     UserFormComponent,
     PrintComponent,
-    
     LoginComponent,
     RegisterComponent
   ],
