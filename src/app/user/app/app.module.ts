@@ -27,8 +27,9 @@ const userRoute:Routes=[
 {path:'search',component:BusSearchResultComponent},
 {path:'user-form',component:UserFormComponent},
 {path:'print',component:PrintComponent},
-{path:'login',component:LoginComponent},
-{path:'register',component:RegisterComponent},
+//{ path: '', redirectTo: '/login', pathMatch: 'full' }, // Redirect root to /login
+{path:'/login',component:LoginComponent},
+{path:'/register',component:RegisterComponent},
 
 ]
 
